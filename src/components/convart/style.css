@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+.attribution a {
+  text-decoration: none;
+  color: rgb(112, 111, 111);
+}
+.btn {
+  background: #fff;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin-left: 25px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn1 {
+  color: hsl(31, 77%, 52%);
+}
+.btn2 {
+  color: hsl(179, 100%, 13%);
+}
+.btn3 {
+  color: hsl(184, 100%, 22%);
+}
+.title {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #fff;
+}
+.description {
+  font-family: "Lexend Deca", sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+}
+.one {
+  background: hsl(31, 77%, 52%);
+}
+.two {
+  background: hsl(179, 100%, 13%);
+}
+.three {
+  background: hsl(184, 100%, 22%);
+}
+
+/* Desktop Style */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 25px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.one,
+.two,
+.three {
+  width: 255px;
+  height: 425px;
+}
+.title,
+.description,
+.icon {
+  margin: 25px;
+}
+.btn1:hover {
+  background: hsl(31, 77%, 52%);
+  border: 1px solid #fff;
+}
+.btn2:hover {
+  background: hsl(179, 100%, 13%);
+  border: 1px solid #fff;
+}
+.btn3:hover {
+  background: hsl(184, 100%, 22%);
+  border: 1px solid #fff;
+}
+/* Mobile style */
+@media only screen and (min-width: 375px) and (max-width: 825px) {
+  .attribution {
+    font-size: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .attribution a {
+    font-size: 15px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .one,
+  .two,
+  .three {
+    height: 405px;
+  }
+  .btn:active {
+    color: #fff;
+  }
+  .btn1:active {
+    background: hsl(31, 77%, 52%);
+    border: 1px solid #fff;
+  }
+  .btn2:active {
+    background: hsl(179, 100%, 13%);
+    border: 1px solid #fff;
+  }
+  .btn3:active {
+    background: hsl(184, 100%, 22%);
+    border: 1px solid #fff;
+  }
+}
